@@ -46,16 +46,16 @@ a {
   color: var(--ink);
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  font-size: 1.35rem;
-  font-weight: 620;
+  gap: 10px;
+  font-size: 1.12rem;
+  font-weight: 560;
   letter-spacing: 0;
   text-decoration: none;
 }
 
 .brand img {
-  width: 34px;
-  height: 34px;
+  width: 28px;
+  height: 28px;
   display: block;
   object-fit: contain;
 }
@@ -296,11 +296,11 @@ footer a:hover {
   }
 
   .brand img {
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
   }
 
   .brand {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
   }
 }
