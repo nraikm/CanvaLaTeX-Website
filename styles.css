@@ -63,7 +63,7 @@ a {
 nav {
   display: flex;
   align-items: center;
-  gap: 38px;
+  gap: 20px;
   color: var(--ink);
   font-size: 1rem;
   font-weight: 450;
