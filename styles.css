@@ -103,14 +103,30 @@ main {
 .hero {
   width: min(1440px, calc(100% - 48px));
   margin: 0 auto;
-  padding: 76px 0 88px;
+  padding: 48px 0 78px;
   text-align: center;
 }
 
+.hero-media {
+  width: min(1060px, 100%);
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 42px;
+  border-radius: 28px;
+}
+
+.hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 5px solid #ffffff;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
 .hero-banner {
-  width: min(1180px, 100%);
+  width: 100%;
   display: block;
-  margin: 0 auto 50px;
   object-fit: contain;
 }
 
@@ -305,8 +321,9 @@ footer a:hover {
     padding: 42px 0 56px;
   }
 
-  .hero-banner {
+  .hero-media {
     margin-bottom: 34px;
+    border-radius: 18px;
   }
 
   .brand img {
