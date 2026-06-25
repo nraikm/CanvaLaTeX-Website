@@ -96,6 +96,28 @@ nav .nav-button[aria-current="page"] {
   color: #ffffff;
 }
 
+.nav-button-github {
+  min-height: 44px;
+  width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-button-github:hover {
+  background: #24292e;
+  color: #ffffff;
+}
+
+.nav-button-github svg {
+  display: block;
+}
+
 main {
   flex: 1;
 }
@@ -115,14 +137,7 @@ main {
   border-radius: 28px;
 }
 
-.hero-media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border: 5px solid #ffffff;
-  border-radius: inherit;
-  pointer-events: none;
-}
+
 
 .hero-banner {
   width: 100%;
