@@ -118,6 +118,12 @@ nav .nav-button[aria-current="page"] {
   display: block;
 }
 
+.nav-group-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
 main {
   flex: 1;
 }
@@ -133,7 +139,7 @@ main {
   width: min(1060px, 100%);
   position: relative;
   overflow: hidden;
-  margin: 0 auto 42px;
+  margin: 0 auto 64px;
   border-radius: 28px;
 }
 
@@ -358,7 +364,7 @@ footer a:hover {
   }
 
   .hero-media {
-    margin-bottom: 34px;
+    margin-bottom: 48px;
     border-radius: 18px;
   }
 
