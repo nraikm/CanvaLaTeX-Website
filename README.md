@@ -2,6 +2,8 @@
 
 A simple static website for the Canva LaTeX Plugin.
 
+Production URL: <https://canvalatex-website.vercel.app>
+
 ## Pages
 
 - `index.html`
